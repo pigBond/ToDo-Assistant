@@ -1,14 +1,7 @@
-<script>
-export default {
-  data() {
-    return {
-      msg: 'Hello World!'
-    }
-  }
-}
-</script>
-
 <template>
-  <h1>{{ msg }}</h1>
-  <input v-model="msg">
+    <p>Welcome to your Electron application.</p>
 </template>
+
+<script setup>
+console.log('👋 This message is being logged by "App.vue", included via Vite');
+</script>
